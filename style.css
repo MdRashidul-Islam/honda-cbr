@@ -25,6 +25,8 @@ body {
 }
 .text-style {
   font-size: 15px;
+  font-weight: 300px;
+  color: #e0e0e0;
 }
 .btn-style {
   background: #e76f51;
