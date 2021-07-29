@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* header style start  */
+.bg-color {
+  background: #264653;
+}
+.heading-font {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+.feature-bike {
+  filter: grayscale(100%);
+}
+.btn-style {
+  background: #e76f51;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 46px;
+}
+/* header style end  */
