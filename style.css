@@ -3,10 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* common style start */
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+.section-title {
+  color: #e76f51;
+}
+/* common style end  */
+
 /* header style start  */
 .bg-color {
   background: #264653;
@@ -19,9 +26,6 @@ body {
 .text-style {
   font-size: 15px;
 }
-.feature-bike {
-  filter: grayscale(100%);
-}
 .btn-style {
   background: #e76f51;
   font-size: 16px;
@@ -29,3 +33,21 @@ body {
   padding: 10px 46px;
 }
 /* header style end  */
+
+.feature-bike {
+  filter: grayscale(100%);
+}
+
+/* social media  */
+.social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+.social-icon img {
+  width: 50px;
+  transition: 0.4s;
+}
+.social-icon a:hover img {
+  transform: translateY(-10px);
+}
