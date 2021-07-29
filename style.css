@@ -16,6 +16,9 @@ body {
   font-size: 48px;
   font-weight: 600;
 }
+.text-style {
+  font-size: 15px;
+}
 .feature-bike {
   filter: grayscale(100%);
 }
